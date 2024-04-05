@@ -44,7 +44,7 @@ public final class ConsoleManager {
         Thread thread = new ConsoleCommandThread();
         thread.setName("ConsoleCommandThread");
         thread.setDaemon(true);
-        thread.start();
+        // thread.start();
     }
 
     public void startFile(String logfile) {
